@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.sourceit.task1.ui.BottomFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editTextBin"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:ems="10"
+            android:hint="@string/editTextBin_hint"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextOct"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/editTextOct_hint"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextHex"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:ems="10"
+            android:hint="@string/editTextHex_hint"
+            android:inputType="number" />
+    </FrameLayout>
+</LinearLayout>

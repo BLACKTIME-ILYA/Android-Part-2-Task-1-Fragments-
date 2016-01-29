@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|top"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.sourceit.task1.ui.TopFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:text="@string/button1_text" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="@string/button2_text" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:text="@string/button3_text" />
+
+        <EditText
+            android:id="@+id/editTextNum1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:ems="10"
+            android:hint="@string/editTextNum1_hint"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNum2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/editTextNum2_hint"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNum3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:ems="10"
+            android:hint="@string/editTextNum3_hint"
+            android:inputType="number" />
+    </FrameLayout>
+</LinearLayout>
+
+

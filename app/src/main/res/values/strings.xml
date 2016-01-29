@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android Part II Task1</string>
+    <string name="button1_text">Num1</string>
+    <string name="button2_text">Num2</string>
+    <string name="button3_text">Num3</string>
+    <string name="editTextNum1_hint">Num</string>
+    <string name="editTextNum2_hint">Num</string>
+    <string name="editTextNum3_hint">Num</string>
+    <string name="editTextBin_hint">BIN</string>
+    <string name="editTextOct_hint">OCT</string>
+    <string name="editTextHex_hint">HEX</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
